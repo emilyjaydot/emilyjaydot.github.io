@@ -1,0 +1,296 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0 0 0 0;
+}
+
+html, body {
+    background: linear-gradient(110.99deg, #E4E3E8 -6.97%, rgba(241, 241, 243, 0) 100%);
+    font-family:'Inter', sans-serif ;
+    
+}
+
+#navbar {
+    position: fixed;
+    min-width:220px;
+    background-color:#9391A1;
+    border:1px solid #f2f2f3;
+}
+
+nav > header {
+    position: fixed;
+    height:75px;
+    width:250px;
+    background-color:#9391A1;
+    border:1px solid #f2f2f3;
+    color:#ffffff;
+    text-align:center;
+    padding-top:23px;
+    font-size:24px;
+    text-transform: uppercase;
+    font-weight:400;
+}
+
+#navbar ul {
+    position:relative;
+    padding-top: 75px;
+    padding-left: 0;
+}
+
+#navbar li  {
+    width:250px;
+    height:50px;
+    list-style: none;
+    border:1px solid #f2f2f3;
+    text-align:center;
+    font-weight:400;
+    font-size:18px;
+    padding-top:14px;
+}
+
+#navbar a {
+    display:block;
+    text-decoration: none;
+    font-weight:400;
+    font-size:18px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+#parties {
+    letter-spacing: -0.005em;
+}
+
+.article-title {
+    background: linear-gradient(180deg, #9391A1 0%, rgba(147, 145, 161, 0.35) 100%);
+    position:inline-block;
+    margin-left:250px;
+    padding-left: 250px;
+    width:100%;
+    height: 75px;
+    margin:0px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight:500;
+    padding-top:15px;
+    text-align: center;
+}
+
+#main-doc {
+    position:absolute;
+    margin-left:290px;
+    padding:20px;
+
+}
+
+#main-doc header {
+    font-weight:500;
+    font-size:20px;
+    color:#4A4950;
+    margin-bottom: 26px;
+    margin-top: 60px;
+}
+
+section > article {
+    color: #000000;
+    font-size: 16px;
+    line-height:28px;
+    margin-right:60px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position:relative;
+    word-break:normal;
+    word-wrap:normal;
+    line-height: 2;
+    background-color:#C9C8D0;
+    padding:15px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.project {
+    width:860px;
+    height:75px;
+    background-color: #484653;
+    border-radius: 15px;
+    margin-top:25px;
+    margin-left:284px ;
+    
+}
+
+.project p {
+    color:#F1F1F3;
+    font-weight:600;
+    font-size: 16px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.project a {
+    color:#9391A1;
+}
+
+@media only screen and (min-width:400px) and (max-width:800px) {
+    nav > header {
+        position: fixed;
+        height:75px;
+        width:250px;
+        background-color:#9391A1;
+        border:1px solid #f2f2f3;
+        color:#ffffff;
+        text-align:center;
+        padding-top:23px;
+        font-size:24px;
+        text-transform: uppercase;
+        font-weight:400;
+    }
+    
+    #navbar ul {
+    position:relative;
+    padding-top: 75px;
+    padding-left: 0;
+    }
+
+    #navbar li  {
+    width:250px;
+    height:50px;
+    list-style: none;
+    border:1px solid #f2f2f3;
+    text-align:center;
+    font-weight:400;
+    font-size:18px;
+    padding-top:14px;
+    }
+
+    #navbar a {
+    display:block;
+    text-decoration: none;
+    font-weight:400;
+    font-size:18px;
+    color:#ffffff;
+    cursor: pointer;
+    }
+
+    #parties {
+    letter-spacing: -0.005em;
+    } 
+    
+    .title {
+        font-size:24px;
+    }
+    }
+    #main-doc {
+        position:relative;
+        margin-left: 140px;
+        margin-top:75px;
+    }
+
+    .project {
+        width: 100%;
+        height:100px;
+        margin:auto;
+    }
+
+    #main-doc {
+        position:absolute;
+        margin-left:290px;
+        padding:20px;
+    
+    }
+    
+    #main-doc header {
+        font-weight:500;
+        font-size:20px;
+        color:#4A4950;
+        margin-bottom: 26px;
+        margin-top: 60px;
+    }
+    
+    section > article {
+        color: #000000;
+        font-size: 16px;
+        line-height:28px;
+    }
+    
+    article p {
+        margin-bottom: 10px;
+}
+
+@media (max-width:400px) {
+    #main-doc {
+        margin-left: 140px;
+        padding:0;
+
+    }
+    nav > header {
+        position:fixed;
+        width:134px;
+        height:65px;
+
+    }
+    #navbar {
+        position:fixed;
+        width:134px;
+        min-width:133px;
+    }
+#navbar ul {
+    position:relative;
+    padding-top: 65px;
+    padding-left: 0;
+    align-items:center;
+}
+
+#navbar li  {
+    width:132px;
+    height:50px;
+    list-style: none;
+    border:1px solid #f2f2f3;
+    text-align:center;
+    font-weight:400;
+    font-size:12px;
+    padding-top:5px;
+}
+
+ #conver, #intro, #travel, #hotel #letter {
+    padding-top:7px;
+}
+#navbar a {
+    display:block;
+    text-decoration: none;
+    font-weight:300;
+    font-size:18px;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+#parties {
+    letter-spacing: -0.005em;
+}
+
+.title {
+    font-size:16px;
+    text-align: center;
+    margin: left 135px;
+    padding-left:0px;
+}
+.article-title {
+    height:65px;
+}
+    code {
+        margin-left:-20px;
+        width:100%;
+        padding:15px;
+        padding-left: 10px;
+        padding-right:45px;
+        min-width:233px;
+    }
+}
