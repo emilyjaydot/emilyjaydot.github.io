@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../odin-project"
+		},
+		{
+			"path": "../../odin-practice-assignments"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"rainbowTags.colors": [
+			"#e6b422",
+			"#c70067",
+			"#00a960",
+			"#fc7482",
+			"#a98743",
+			"#ff6700",
+			"#873d48",
+			"#dc758f",
+			"#6d435a",
+			"#63adf2",
+			"#bfdbf7",
+			"#197278",
+			"#909580",
+			"#d0e562",
+			"#c0c0c0"
+		],
+		"rainbowTags.allowEverywhere": false,
+		"workbench.sideBar.location": "right",
+		"liveServer.settings.multiRootWorkspaceName": "emilyjaydot.github.io"
+	}
+}
