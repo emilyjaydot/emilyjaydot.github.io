@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600;700&family=Inter:wght@300;400;500&family=Open+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="landingpage.css" />
+    <title>High Up Hot Air Balloon Rides</title>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <img src="./img/Logo.svg" alt="High Up Logo" id="header-img" />
+
+        <nav id="nav-bar">
+          <ul class="top-nav-bar">
+            <li class="nav-link"><a href="#pricing">Pricing</a></li>
+            <li class="nav-link">
+              <a href="#flight-details">Flight Details</a>
+            </li>
+            <li class="nav-link"><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero">
+        <div class="hero-image">
+          <img src="./img/balloon.jpg" alt="hot air balloon in the sky" />
+        </div>
+        <div class="hero-form">
+          <h2 class="hero-title">How High Do You Want To Go?</h2>
+          <p class="hero-subtitle">Hot Air Balloon Rides starting at $100.</p>
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="  Enter Your Email"
+              required
+            />
+            <button class="email__button" type="submit" id="submit">
+              Get More Info
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="price-cards" id="pricing">
+        <div class="card-background"></div>
+        <div class="card">
+          <h3 class="package-level">Silver</h3>
+          <p class="price"><sup>$</sup>200</p>
+          <p class="details">Per Person</p>
+          <hr />
+          <p class="details">
+            60 Minutes <span class="bold">Shared</span> Balloon Flight
+          </p>
+          <hr />
+          <p class="details">Post-Flight Champagne Toast with Pilot & Crew</p>
+          <hr />
+          <p class="details">Commemorative Champagne Flute</p>
+          <hr />
+          <button class="button card__button">BOOK NOW</button>
+        </div>
+        <div class="card">
+          <h3 class="package-level">Gold</h3>
+          <p class="price"><sup>$</sup>325</p>
+          <p class="details">Per Person</p>
+          <hr />
+          <p class="details">
+            60 Minutes <span class="bold">Shared</span> Balloon Flight
+          </p>
+          <hr />
+          <p class="details">Post-Flight Champagne Toast with Pilot & Crew</p>
+          <hr />
+          <p class="details">Commemorative T-shirt and Champagne Flute</p>
+          <hr />
+          <button class="card__button">BOOK NOW</button>
+        </div>
+        <div class="card">
+          <h3 class="package-level">Platinum</h3>
+          <p class="price"><sup>$</sup>500</p>
+          <p class="details">Per Person</p>
+          <hr />
+          <p class="details">
+            60 Minutes <span class="bold">Private</span> Balloon Flight
+          </p>
+          <hr />
+          <p class="details">Post-Flight Champagne Toast with Pilot & Crew</p>
+          <hr />
+          <p class="details">Commemorative T-shirt and Champagne Flute</p>
+          <hr />
+          <button class="button card__button">BOOK NOW</button>
+        </div>
+      </section>
+      <section class="video">
+        <div class="video-background"></div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/QGAMTlI6XxY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section class="tour" id="flight-details">
+        <div class="tour-background">
+        <h2 class="ult">The Ultimate Sightseeing Tour</h2>
+        <div class="detail-cards">
+        <div class="tour__card">
+          <img
+            src="./img/safety.svg"
+            alt="shield icon"
+            class="card__icon safety"
+          />
+          <p class="card__name">Experienced & Safe</p>
+          <p class="card__details">
+            Our crew and pilots have provided first-class balloon rides to
+            thousands of passengers from around the world and those living right
+            here.
+          </p>
+        </div>
+        <div class="tour__card">
+          <img
+            src="./img/views.svg"
+            alt="binoculars icon"
+            class="card__icon views"
+          />
+          <p class="card__name">Spectacular Views</p>
+          <p class="card__details">
+            Rated as One of the World's Ten Best Hot Air Balloon Adventures.
+            Experience scenery from a hot air balloon is an unforgettable
+            experience.
+          </p>
+        </div>
+        <div class="tour__card">
+          <img
+            src="./img/special.svg"
+            alt="champagne icon"
+            class="card__icon special"
+          />
+          <p class="card__name">Special Occasions</p>
+          <p class="card__details">
+            Want to make the day extra special? Book a hot air balloon ride
+            today for a special celebration or event. We offer group and private
+            flights to fulfill your dreams.
+          </p>
+        </div>
+        </div>
+        </div>
+      </section>
+      <section class="questions" id="faq">
+        <div class="question-background">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="question">How long do balloon rides last?</p>
+        <p class="answer">
+          Plan for 3.5 hours from the time we meet and check-in, safety-brief,
+          inflation, flight, landing, retrieval, post-flight toast, and return
+          to your car. The flight portion will last at least one hour. The
+          memories last a lifetime.
+        </p>
+        <p class="question">How can I book a balloon ride?</p>
+        <p class="answer">
+          Click the button above for the package that you want to book, and
+          enter the requested information. It takes most people less than 4
+          minutes to guarantee their place! Be sure to check your inbox for the
+          confirmation email and details (don't forget to look in your Spam
+          folder).
+        </p>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-background">
+        <div class="logo">
+          <img src="./img/Logo.svg" alt="High Up Logo" />
+        </div>
+        <p class="copyright">Copyright 2022, High Up Hot Air Balloon Rides</p>
+        <div class="footer-links">
+          <ul class="footer-nav">
+            <li class="footer_link">Privacy</li>
+            <li class="footer_link">Terms</li>
+            <li class="footer_link">Contact</li>
+          </ul>
+        </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
